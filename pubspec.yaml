@@ -1,7 +1,7 @@
-name: resultify
+name: resultfy
 description: "A robust utility for handling success and error states in a functional style."
 version: 1.0.0
-homepage: https://github.com/evandersondev/result
+homepage: https://github.com/evandersondev/resultfy
 
 environment:
   sdk: ^3.5.4
