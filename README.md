@@ -17,7 +17,7 @@ Add the following dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  result: ^1.0.0
+  resultify: ^1.0.0
 ```
 
 Then, run:
@@ -31,7 +31,7 @@ flutter pub get
 ### Basic Usage
 
 ```dart
-import 'package:result/result.dart';
+import 'package:resultify/resultify.dart';
 
 void main() {
   // Creating a success result
@@ -128,7 +128,7 @@ print(errorHandled); // Output: Result<int>.success(20)
 
 ```dart
 import 'package:test/test.dart';
-import 'package:result/result.dart';
+import 'package:resultify/resultify.dart';
 
 void main() {
   test('Success result works correctly', () {
@@ -197,7 +197,7 @@ void main() {
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests on the [GitHub repository](https://github.com/evandersondev/result).
+Contributions are welcome! Please open issues or submit pull requests on the [GitHub repository](https://github.com/evandersondev/resultify).
 
 ## License
 
