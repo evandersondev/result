@@ -1,3 +1,3 @@
-## 1.0.0
+## [1.0.0] - First release
 
-- TODO: First version.
+- TODO: Add a initial version with base configurations.
