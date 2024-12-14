@@ -1,5 +1,5 @@
 name: resultify
-description: "A new Flutter package project."
+description: "A robust utility for handling success and error states in a functional style."
 version: 1.0.0
 homepage: https://github.com/evandersondev/result
 
