@@ -64,6 +64,14 @@ sealed class Result<T> {
       return Result.failure(e);
     }
   }
+
+  /// Converte o [Result] em um valor [T?] (Optional).
+  T? toOptional() {
+    if (this is Success<T>) {
+      return (this as Success<T>).value;
+    }
+    return null; // Retorna null em caso de falha
+  }
 }
 
 /// Subclasse de Result para valores (sucesso).
